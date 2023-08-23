@@ -1,0 +1,23 @@
+.navbar {
+  margin: 2rem;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-links__item {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.navbar-links__item:link {
+    color: #000000;
+}
+  
+.navbar-links__item:visited {
+    color: #000000;
+}
