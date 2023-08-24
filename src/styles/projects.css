@@ -1,0 +1,14 @@
+.projects {
+  display: flex;
+}
+
+.projects-item {
+  width: 30%;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.projects-item__image {
+  width: 100%;
+  border-radius: 7px; 
+}
