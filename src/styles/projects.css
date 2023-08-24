@@ -1,5 +1,6 @@
 .projects {
   display: flex;
+  color: #69F6D0;
 }
 
 .projects-item {
@@ -11,4 +12,13 @@
 .projects-item__image {
   width: 100%;
   border-radius: 7px; 
+}
+
+.projects-item__repo:link {
+  text-decoration: none;
+  color: #69F6D0;
+}
+
+.projects-item__repo:visited {
+  color: #69F6D0;
 }

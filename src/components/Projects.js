@@ -26,11 +26,13 @@ const Projects = () => {
           to view ingredients and instructions.
         </p>
         <p>
-          View the Github repo
-          <Link to={process.env.REACT_APP_COCKTAIL_REPO} target="_blank">
-            <span> here</span>
+          <Link
+            className="projects-item__repo"
+            to={process.env.REACT_APP_COCKTAIL_REPO}
+            target="_blank"
+          >
+            View the Github repo here.
           </Link>
-          .
         </p>
       </div>
       <div className="projects-item">
@@ -51,11 +53,13 @@ const Projects = () => {
           access a more detailed forecast for each date.
         </p>
         <p>
-          View the Github repo
-          <Link to={process.env.REACT_APP_WEATHER_REPO} target="_blank">
-            <span> here</span>
+          <Link
+            className="projects-item__repo"
+            to={process.env.REACT_APP_WEATHER_REPO}
+            target="_blank"
+          >
+            View the Github repo here.
           </Link>
-          .
         </p>
       </div>
     </div>

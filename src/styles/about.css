@@ -1,6 +1,11 @@
 .about {
   width: 60%;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
-  padding: 7rem 0;
+  padding: 5rem 0;
+  color: #69F6D0;
+}
+
+.about__logo {
+  width: 40%;
 }

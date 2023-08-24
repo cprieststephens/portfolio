@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap");
 
 body {
-  font-family: "Manrope", sans-serif;
+  background-color: #0E0F69;
+  font-family: "JetBrains Mono", monospace;
   margin: 0;
   padding: 0;
 }
