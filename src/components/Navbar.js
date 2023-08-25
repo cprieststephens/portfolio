@@ -16,11 +16,6 @@ const Navbar = () => {
             Projects
           </Link>
         </li>
-        <li>
-          <Link className="navbar-links__item" to="contact">
-            Contact
-          </Link>
-        </li>
       </ul>
     </div>
   );

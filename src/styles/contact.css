@@ -1,0 +1,12 @@
+.contact {
+  display: flex; 
+  justify-content: space-around;
+}
+
+.contact a {
+  width: 3%;
+}
+
+.contact__icon {
+  width: 100%;
+}
