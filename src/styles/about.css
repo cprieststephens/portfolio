@@ -1,11 +1,11 @@
 .about {
   width: 60%;
-  margin: 0 auto;
+  margin: 0 auto 12rem auto;
   text-align: center;
   padding: 1.5rem 0;
   color: #69F6D0;
 }
 
 .about__logo {
-  width: 40%;
+  width: 30%;
 }

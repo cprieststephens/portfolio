@@ -9,7 +9,10 @@ import "../styles/contact.css";
 const Contact = () => {
   return (
     <div className="contact">
-      <Link className="contact__link" to="mailto:camillaprieststephens@gmail.com">
+      <Link
+        className="contact__link"
+        to="mailto:camillaprieststephens@gmail.com"
+      >
         <img className="contact__icon" src={emailIcon} alt="email icon" />
       </Link>
       <Link

@@ -1,6 +1,8 @@
 .contact {
   display: flex; 
   justify-content: space-around;
+  position: fixed;
+  bottom: 5%;
 }
 
 .contact a {
