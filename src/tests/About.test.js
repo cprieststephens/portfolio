@@ -18,8 +18,8 @@ describe("About", () => {
 
   it("renders the correct image", () => {
     render(<About />);
-
     const logo = screen.getByAltText("laptop logo");
+
     expect(logo).toBeInTheDocument();
   });
 });
