@@ -10,14 +10,9 @@
   width: 25%;
 }
 
-.about__name {
+.about__title {
   margin: 0;
   font-size: 2.5rem;
-}
-
-.about__job {
-  margin: 0;
-  font-size: 2rem;
 }
 
 .about__text {
@@ -25,3 +20,54 @@
   margin: 1rem auto;
   font-size: 1.2rem;
 }
+
+@media screen and (max-width:480px) {
+  .about {
+    width: 80%;
+    margin: 9rem auto;
+  }
+
+  .about__logo {
+    width: 40%;
+  }
+
+  .about__title {
+    font-size: 1.5rem;
+  }
+
+  .about__text {
+    width: 90%;
+  }
+
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+  .about {
+    width: 90%;
+    margin: 8rem auto;
+  }
+
+  .about__logo {
+    width: 40%;
+  }
+
+  .about__text {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+  .about {
+    margin: 10rem auto;
+  }
+  
+  .about__logo {
+    width: 40%;
+  }
+
+  .about__text {
+    width: 100%;
+  }
+}
+
+

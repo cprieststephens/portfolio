@@ -17,16 +17,16 @@ const Projects = () => {
             alt="Cocktail Companion screenshot"
           />
         </Link>
-        <p>
+        <p className="projects-item__description">
           A cocktail mixing app that displays API data and allows users to
           search for drinks by name, filter by spirit and view ingredients and
           instructions.
         </p>
-        <p>
+        <p className="projects-item__description">
           Collaboratively built with React, JavaScript, CSS, Jest and React
           Testing Library.
         </p>
-        <p>
+        <p className="projects-item__description">
           <Link
             className="projects-item__repo"
             to="https://github.com/josenymad/cocktail-companion"
@@ -50,16 +50,16 @@ const Projects = () => {
           src={surrealEstate}
           alt="Surreal Estate screenshot"
         />
-        <p>
+        <p className="projects-item__description">
           A property listing app that allows users to view property data via an
           API. Signed in users can also add and remove data. This project is
           currently in progress.
         </p>
-        <p>
+        <p className="projects-item__description">
           Built with React, JavaScript, CSS, Firebase, Jest and React Testing
           Library.
         </p>
-        <p>
+        <p className="projects-item__description">
           <Link
             className="projects-item__repo"
             to="https://github.com/cprieststephens/surreal-estate"
@@ -78,15 +78,15 @@ const Projects = () => {
             alt="Weather App screenshot"
           />
         </Link>
-        <p>
+        <p className="projects-item__description">
           A weather app that allows users to search by city to fetch forecast
           data from an API. Users can also access a more detailed forecast for
           each date by clicking a button.
         </p>
-        <p>
+        <p className="projects-item__description">
           Built with React, JavaScript, CSS, Jest and React Testing Library.
         </p>
-        <p>
+        <p className="projects-item__description">
           <Link
             className="projects-item__repo"
             to="https://github.com/cprieststephens/weather-app"

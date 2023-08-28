@@ -4,13 +4,17 @@
 
 .projects-item {
   width: 50%;
-  margin: 7rem auto 3rem auto;
+  margin: 9rem auto 3rem auto;
   text-align: center;
 }
 
 .projects-item__image {
   width: 100%;
   border-radius: 7px; 
+}
+
+.projects-item__description {
+  font-size: 1.2rem;
 }
 
 .projects-item__repo:link {
@@ -20,4 +24,15 @@
 
 .projects-item__repo:visited {
   color: #69F6D0;
+}
+
+@media screen and (max-width:991px) {
+  .projects {
+    margin-top: 6rem;
+  }
+  
+  .projects-item {
+    width: 80%;
+    margin: 2rem auto;
+  }
 }

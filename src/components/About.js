@@ -6,8 +6,8 @@ const About = () => {
   return (
     <div className="about">
       <img className="about__logo" src={logo} alt="laptop logo" />
-      <h1 className="about__name">Camilla Priest-Stephens</h1>
-      <h2 className="about__job">Frontend Developer</h2>
+      <h1 className="about__title">Camilla Priest-Stephens</h1>
+      <h2 className="about__title">Frontend Developer</h2>
       <p className="about__text">
         I am a graduate of Command Shift bootcamp looking for a role as a
         Frontend Developer.
