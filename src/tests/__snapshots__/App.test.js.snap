@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="app"
+  >
+    <div
+      class="navbar"
+    >
+      <ul
+        class="navbar-links"
+      >
+        <li>
+          <a
+            class="navbar-links__item"
+            href="/"
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            class="navbar-links__item"
+            href="/projects"
+          >
+            Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="about"
+    >
+      <img
+        alt="laptop logo"
+        class="about__logo"
+        src="logo.png"
+      />
+      <h1
+        class="about__title"
+      >
+        Camilla Priest-Stephens
+      </h1>
+      <h2
+        class="about__title"
+      >
+        Frontend Developer
+      </h2>
+      <p
+        class="about__text"
+      >
+        I am a graduate of Command Shift bootcamp looking for a role as a Frontend Developer.
+      </p>
+      <p
+        class="about__text"
+      >
+        I have experience of React, JavaScript, CSS, Jest and React Testing Library and am always open to learning new tech!
+      </p>
+    </div>
+    <div
+      class="contact"
+    >
+      <a
+        class="contact__link"
+        href="mailto:camillaprieststephens@gmail.com"
+      >
+        <img
+          alt="email icon"
+          class="contact__icon"
+          src="email-icon.png"
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/camilla-priest-stephens/"
+        target="_blank"
+      >
+        <img
+          alt="LinkedIn icon"
+          class="contact__icon"
+          src="linkedin-icon.png"
+        />
+      </a>
+      <a
+        href="https://twitter.com/Camilla_Codes"
+        target="_blank"
+      >
+        <img
+          alt="X icon"
+          class="contact__icon"
+          src="x-icon.png"
+        />
+      </a>
+      <a
+        href="https://github.com/cprieststephens"
+        target="_blank"
+      >
+        <img
+          alt="Github icon"
+          class="contact__icon"
+          src="github-icon.png"
+        />
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

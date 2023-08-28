@@ -1,9 +1,16 @@
 import React from "react";
-import { render, screen } from "@testing-library/react";
+import { render } from "@testing-library/react";
+import { MemoryRouter } from "react-router-dom";
 import App from "../components/App";
 
-test("renders correct title", () => {
-  render(<App />);
-  const portfolioTitle = screen.getByText(/portfolio/i);
-  expect(portfolioTitle).toBeInTheDocument();
+describe("App", () => {
+  it("renders correctly", () => {
+    const { asFragment } = render(
+      <MemoryRouter>
+        <App />
+      </MemoryRouter>,
+    );
+
+    expect(asFragment()).toMatchSnapshot();
+  });
 });
