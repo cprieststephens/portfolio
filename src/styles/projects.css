@@ -1,11 +1,11 @@
 .projects {
-  display: flex;
   color: #69F6D0;
+  margin-top: 2rem;
 }
 
 .projects-item {
-  width: 30%;
-  margin: 1.5rem auto;
+  width: 60%;
+  margin: 0 auto 7rem auto;
   text-align: center;
 }
 
