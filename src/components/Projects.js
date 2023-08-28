@@ -18,13 +18,13 @@ const Projects = () => {
           />
         </Link>
         <p>
-          Collaboratively built with React, JavaScript, CSS, Jest and React
-          Testing Library.
-        </p>
-        <p>
           A cocktail mixing app that displays API data and allows users to
           search for drinks by name, filter by spirit and view ingredients and
           instructions.
+        </p>
+        <p>
+          Collaboratively built with React, JavaScript, CSS, Jest and React
+          Testing Library.
         </p>
         <p>
           <Link
@@ -51,13 +51,13 @@ const Projects = () => {
           alt="Surreal Estate screenshot"
         />
         <p>
-          Built with React, JavaScript, CSS, Firebase, Jest and React Testing
-          Library.
-        </p>
-        <p>
           A property listing app that allows users to view property data via an
           API. Signed in users can also add and remove data. This project is
           currently in progress.
+        </p>
+        <p>
+          Built with React, JavaScript, CSS, Firebase, Jest and React Testing
+          Library.
         </p>
         <p>
           <Link
@@ -79,12 +79,12 @@ const Projects = () => {
           />
         </Link>
         <p>
-          Built with React, JavaScript, CSS, Jest and React Testing Library.
-        </p>
-        <p>
           A weather app that allows users to search by city to fetch forecast
           data from an API. Users can also access a more detailed forecast for
           each date by clicking a button.
+        </p>
+        <p>
+          Built with React, JavaScript, CSS, Jest and React Testing Library.
         </p>
         <p>
           <Link

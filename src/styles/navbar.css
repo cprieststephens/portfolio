@@ -1,5 +1,11 @@
 .navbar {
-  margin-top: 2rem;
+  background-color: #0b0051;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  padding: 1rem;
 }
 
 .navbar-links {

@@ -1,11 +1,10 @@
 .projects {
   color: #69F6D0;
-  margin-top: 2rem;
 }
 
 .projects-item {
-  width: 60%;
-  margin: 0 auto 7rem auto;
+  width: 50%;
+  margin: 7rem auto 3rem auto;
   text-align: center;
 }
 
