@@ -1,5 +1,7 @@
 # Portfolio
 
+<img src="src/img/portfolio-screenshot.jpg" alt="portfolio landing page screenshot" title="Portfolio" width="600px"><br>
+
 I built this portfolio using React and JavaScript. It was created using the npx script `create-react-app`. I wrote the tests using Jest and React Testing Library.
 
 ## Getting started

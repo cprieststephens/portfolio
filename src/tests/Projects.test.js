@@ -36,7 +36,7 @@ describe("Projects", () => {
       </MemoryRouter>,
     );
     const cocktailCompanionImage = screen.getByAltText(
-      "Cocktail Companion screenshot"
+      "Cocktail Companion screenshot",
     );
     const surrealEstateImage = screen.getByAltText("Surreal Estate screenshot");
     const weatherAppImage = screen.getByAltText("Weather App screenshot");
