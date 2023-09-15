@@ -4,7 +4,7 @@
 
 - I created this portfolio using `create-react-app` and built it with React and JavaScript. 
 - I wrote the tests using Jest and React Testing Library.
-- I've included descriptions and links for three React projects: Cocktail Companion, Surreal Estate (in progress) and Weather App.
+- It contains three React projects: Cocktail Companion, Surreal Estate and Weather App.
 
 [Click here to visit my portfolio site.](https://camillaprieststephens.com/)
 
