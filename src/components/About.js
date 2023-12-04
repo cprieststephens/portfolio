@@ -7,14 +7,15 @@ const About = () => {
     <div className="about">
       <img className="about__logo" src={logo} alt="laptop logo" />
       <h1 className="about__title">Camilla Priest-Stephens</h1>
-      <h2 className="about__title">Frontend Developer</h2>
+      <h2 className="about__title">Associate Developer</h2>
       <p className="about__text">
-        I am a graduate of Command Shift bootcamp looking for a role as a
-        Frontend Developer.
+        I am a former Speech and Language Therapist, career changer, graduate of
+        Command Shift bootcamp and mentee on the Cajigo 100 Women in Tech
+        Accelerator programme.
       </p>
       <p className="about__text">
-        I have experience of React, JavaScript, CSS, Jest and React Testing
-        Library and am always open to learning new tech!
+        I created this portfolio to dislay some of my frontend projects, which
+        were built with React, JavaScript, CSS, Jest and React Testing Library.
       </p>
     </div>
   );

@@ -52,8 +52,8 @@ const Projects = () => {
         />
         <p className="projects-item__description">
           A property listing app that allows users to view property data via an
-          API. Users can also create an account and sign in to access a
-          Favourites section, where they can add and remove property cards.
+          API. Users can also create an account and sign in to add property
+          listings and save properties in a Favourites section.
         </p>
         <p className="projects-item__description">
           Built with React, JavaScript, CSS, Firebase, Jest and React Testing
@@ -81,7 +81,7 @@ const Projects = () => {
         <p className="projects-item__description">
           A weather app that allows users to search by city to fetch forecast
           data via an API. Users can also access a more detailed forecast for
-          each date by clicking a button.
+          each date in the display.
         </p>
         <p className="projects-item__description">
           Built with React, JavaScript, CSS, Jest and React Testing Library.
